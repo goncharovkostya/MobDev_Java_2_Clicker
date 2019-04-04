@@ -19,13 +19,26 @@
             android:id="@+id/mainText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"/>
+            android:text="@string/clicked"/>
+
+        <ImageButton
+            android:id="@+id/btnIncrease"
+            android:src="@drawable/tom"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="@string/increase"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnDecrease"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"/>
+            android:text="@string/decrease"/>
+
+        <Button
+            android:id="@+id/btNullify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nullify"/>
 
     </LinearLayout>
 
